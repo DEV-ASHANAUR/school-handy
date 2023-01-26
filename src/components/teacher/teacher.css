@@ -1,0 +1,44 @@
+.teacher__wrapper{
+    padding-bottom: 11.2rem;
+}
+.box__wrapper{
+    padding: 3.5rem 4rem 3.5rem 4rem;
+    background: #FFFFFF;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    transition: all .3s ease;
+}
+.box__wrapper:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.box__icon{
+    width: 7rem;
+    height: 7.6rem;
+    background: #E74040;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box__hr {
+    border: none;
+    width: 5rem;
+    height: 0.2rem;
+    background: #E74040;
+    opacity: 1;
+    margin: 0;
+}
+.box__wrapper h2{
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+.box__wrapper p{
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.box:nth-child(even){
+    margin-top: 4.8rem;
+}

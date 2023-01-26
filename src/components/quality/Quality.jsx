@@ -16,6 +16,7 @@ const Quality = () => {
                         <h2>Most trusted in our field</h2>
                         <p>Most calendars are designed for teams. Slate s designed for freelancers </p>
                         <div className={styles.quality__items}>
+                            {/* item */}
                             <div className={styles.item__wrapper}>
                                 <div className={styles.item__num}>01</div>
                                 <div className={styles.item}>
@@ -23,6 +24,7 @@ const Quality = () => {
                                     <p>Things on a very small that you have any direct</p>
                                 </div>
                             </div>
+                            {/* item */}
                             <div className={styles.item__wrapper}>
                                 <div className={styles.item__num}>02</div>
                                 <div className={styles.item}>
@@ -30,6 +32,7 @@ const Quality = () => {
                                     <p>Things on a very small that you have any direct</p>
                                 </div>
                             </div>
+                            {/* item */}
                             <div className={styles.item__wrapper}>
                                 <div className={styles.item__num}>03</div>
                                 <div className={styles.item}>
@@ -37,6 +40,7 @@ const Quality = () => {
                                     <p>Things on a very small that you have any direct</p>
                                 </div>
                             </div>
+                            {/* item */}
                         </div>
                     </div>
                 </div>

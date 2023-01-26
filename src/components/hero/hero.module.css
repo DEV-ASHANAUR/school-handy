@@ -1,0 +1,73 @@
+.hero__wrapper{
+    background-image: url('../../assets/img/hero-bg.png');
+    position: relative;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+.hero__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    color: #fff;
+    padding-top: 14.8rem;
+    padding-bottom: 14.8rem;
+}
+
+.hero__left h4{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.hero__left h1{
+    font-size: 5.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hero__left p{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.hero__buttons{
+    display: flex;
+    gap: 1rem;
+}
+
+.get_quota{
+    background: #FF6551;
+    border-radius: 5px;
+    padding: 1.5rem 4rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+.learn__more{
+    background: transparent;
+    border: 1px solid #FF6551;
+    border-radius: 5px;
+    padding: 1.5rem 4rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    transition: .3s ease;
+}
+.learn__more:hover{
+    background: #FF6551;
+}
+
+.hero__img{
+    position: absolute;
+    bottom: 2rem;
+    right: 6%;
+    object-fit: cover;
+    width: 550px; 
+}

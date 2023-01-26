@@ -1,0 +1,21 @@
+.heading__wrapper{
+    padding-top: 12.0rem;
+    padding-bottom: 7.5rem;
+}
+.heading__wrapper h3{
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #FF6551;
+}
+.heading__wrapper h1{
+    font-weight: 700;
+    font-size: 4rem;
+    color: #000;
+    padding: 1rem 0;
+}
+.heading__wrapper p{
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #737373;
+    max-width: 50rem;
+}

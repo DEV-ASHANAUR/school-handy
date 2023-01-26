@@ -1,0 +1,54 @@
+.quality__main{
+    padding-bottom: 16rem;
+}
+.poriImg{
+    width: 468px;
+    object-fit: contain;
+}
+.quality__right h2{
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: #252B42;
+}
+
+.quality__right p{
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.quality__items{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.item__wrapper{
+    padding: 2.5rem 12.7rem 2.5rem 2.5rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.item__num{
+    background: #ECECEC;
+    width: 7rem;
+    height: 5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E74040;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+.item h2{
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin: 0;
+}
+.item p{
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: 0;
+    margin-top: .5rem;
+}

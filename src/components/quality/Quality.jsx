@@ -9,7 +9,7 @@ const Quality = () => {
             <Heading first="Practice Advice" second="Get Quality Education" third="Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics" />
             <div className={`${styles.quality__main} row`}>
                 <div className="col-md-7">
-                    <img className={styles.poriImg} src={pori} alt="" />
+                    <img className="img-fluid" src={pori} alt="" />
                 </div>
                 <div className="col-md-5">
                     <div className={styles.quality__right}>

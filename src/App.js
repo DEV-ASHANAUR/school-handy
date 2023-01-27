@@ -1,4 +1,5 @@
 import React from 'react'
+import Client from './components/client/Client'
 import Courses from './components/courses/Courses'
 import Hero from './components/hero/Hero'
 import Navbar from './components/navbar/Navbar'
@@ -13,6 +14,7 @@ const App = () => {
       <Quality />
       <Teacher />
       <Courses />
+      <Client />
     </div>
   )
 }

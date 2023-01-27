@@ -1,6 +1,7 @@
 import React from 'react'
 import Client from './components/client/Client'
 import Courses from './components/courses/Courses'
+import Footer from './components/footer/Footer'
 import Hero from './components/hero/Hero'
 import Navbar from './components/navbar/Navbar'
 import Newsletter from './components/newsletter/Newsletter'
@@ -19,6 +20,7 @@ const App = () => {
       <Client />
       <Testimonial />
       <Newsletter />
+      <Footer />
     </div>
   )
 }

@@ -1,0 +1,28 @@
+.footer__wrapper{
+    background-color: #26335D;
+    padding: 5rem 0;
+}
+.footer__list{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer__list a{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.footer__list a:hover{
+    color: #dab8b8;
+}
+.footer__icon1 {
+    font-size: 2.2rem;
+    color: #fff;
+    font-weight: 700;
+}
+.copyright__footer{
+    padding: 2.5rem 0;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+}

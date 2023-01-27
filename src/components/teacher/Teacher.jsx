@@ -4,6 +4,7 @@ import './teacher.css';
 import hat from '../../assets/img/icon/001-graduation-hat.png';
 import bag from '../../assets/img/icon/icon cool-icon-n11.svg';
 const Teacher = () => {
+    
   return (
     <section>
         <div className="container">

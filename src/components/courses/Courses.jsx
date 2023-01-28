@@ -20,8 +20,6 @@ import { AiFillStar } from 'react-icons/ai'
 import { BsDownload } from 'react-icons/bs'
 import { MdOutlineArrowForwardIos } from 'react-icons/md'
 
-
-
 const Courses = () => {
     const products = [
         {
@@ -69,7 +67,8 @@ const Courses = () => {
             oldPrice: 16.48,
             newPrice: 6.48
         }
-    ]
+    ];
+    
     return (
         <section>
             <div className='container'>

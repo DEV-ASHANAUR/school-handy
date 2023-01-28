@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import styles from './navbar.module.css';
-import {BsArrowRight} from 'react-icons/bs'
 
-// import { RiMenuAddFill } from 'react-icons/ri'
+import {BsArrowRight} from 'react-icons/bs'
 import { AiOutlineMenuFold } from 'react-icons/ai'
 import { AiOutlineMenuUnfold } from 'react-icons/ai'
 
@@ -11,6 +10,7 @@ const Navbar = () => {
   return (
     <section className={styles.nav__wrapper}>
         <nav className={`container d-flex justify-content-between align-items-center`}>
+            {/* desktop menu */}
             <div className={`${styles.nav__left} d-flex`}>
                 <div className={styles.nav__brand}>
                     <a href="#">BrandName</a>
@@ -24,7 +24,7 @@ const Navbar = () => {
                 </ul>
             </div> 
             <div className={`${styles.nav__right}`}>
-                {/* open */}
+                {/* open and close mobile menu trigger */}
                 {
                     trigger ? (<AiOutlineMenuUnfold onClick={()=>setTirgger(false)} className={styles.menu__add} />) : 
                     (<AiOutlineMenuFold onClick={()=>setTirgger(true)} className={styles.menu__add} />)
@@ -34,6 +34,7 @@ const Navbar = () => {
                     <li><a className={styles.join__us} href="#">JOIN US <BsArrowRight className={styles.arrow} /></a></li>
                 </ul>
             </div>
+            {/* desktop menu */}
 
             {/* mobile__menu */}
             <div className={`${styles.mobile__menu} ${trigger && 'mobile__triggger'}`}>

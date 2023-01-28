@@ -3,6 +3,7 @@ import Heading from '../heading/Heading'
 import styles from './quality.module.css';
 import pori from '../../assets/img/pori.png';
 const Quality = () => {
+  
   return (
     <section>
         <div className="container">

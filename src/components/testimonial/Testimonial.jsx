@@ -38,7 +38,6 @@ const Testimonial = () => {
                         <TestiItem key={i} item={item} />
                     ))
                 }
-                
             </div>
         </div>
     </section>

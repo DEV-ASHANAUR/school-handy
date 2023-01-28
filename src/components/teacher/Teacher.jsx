@@ -30,7 +30,7 @@ const Teacher = () => {
   return (
     <section>
         <div className="container">
-            <Heading first="Practice Advice" second="Our Experts Teacher" third="Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics" />
+            <Heading first="Practice Advice" second="Our Experts Teacher" third="Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics" menuId="expert" />
             
             <div className="row teacher__wrapper">
                 {

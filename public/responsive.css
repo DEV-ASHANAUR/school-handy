@@ -53,12 +53,16 @@
 		padding: .5rem;
 	}
 	/* all style inclued in navbar.module.css */
+	.mobile__triggger{
+		height: 100vh!important;
+	}
 }
 
 /*Small devices (landscape phones, 575px and down)*/
 @media (max-width: 575px) {
 	html {
 		font-size: 100%!important;
+		/* border-top: 1px solid #fff; */
 	}
 	
 }

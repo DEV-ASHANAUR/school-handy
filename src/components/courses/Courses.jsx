@@ -73,7 +73,7 @@ const Courses = () => {
     return (
         <section>
             <div className='container'>
-                <Heading first="Courses" second="Most Popular Courses" third="Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics" />
+                <Heading first="Courses" second="Most Popular Courses" third="Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics" menuId="course" />
             </div>
 
             <div className="container pb-5">

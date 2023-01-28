@@ -29,7 +29,7 @@ const Testimonial = () => {
   return (
     <section>
         <div className="container">
-            <Heading first="Testimonials" second="Get Quality Education" third="Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics" centerMode={false} />
+            <Heading first="Testimonials" second="Get Quality Education" third="Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics" centerMode={false} menuId="testimonial" />
         </div>
         <div className="container">
             <div className="row pb-5">

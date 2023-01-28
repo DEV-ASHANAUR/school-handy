@@ -6,7 +6,7 @@ const Quality = () => {
   return (
     <section>
         <div className="container">
-            <Heading first="Practice Advice" second="Get Quality Education" third="Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics" />
+            <Heading first="Practice Advice" second="Get Quality Education" third="Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics" menuId="quality" />
             <div className={`${styles.quality__main} row`}>
                 <div className="col-lg-7 quality__left">
                     <img className="img-fluid" src={pori} alt="" />

@@ -1,6 +1,7 @@
 .nav__wrapper{
     background-color: #E74040;
     padding: 3rem 0;
+    position: relative;
 }
 .nav__left{
  gap: 7.5rem;
@@ -60,6 +61,10 @@
     display: flex;
 }
 
+.mobile__menu{
+    display: none;
+}
+
 @media (max-width: 767px) {
 	html {
 		font-size: 50%!important;
@@ -73,9 +78,45 @@
         font-size: 3rem;
         font-weight: bold;
         color: #fff;
+        cursor: pointer;
     }
     .nav__links{
         display: none!important;
+    }
+
+    /* .nav__wrapper{
+        border-bottom: 1px solid #fff;
+    } */
+
+    /* mobile menu */
+    .mobile__menu{
+        
+        padding-top: 3rem;
+        left: 0;
+        top: 9.8rem;
+        z-index: 999;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-evenly; */
+        gap: 4rem;
+        align-items: center;
+        position: absolute;
+        width: 100%;
+        height: 0;
+        /* background-color: #49211c; */
+        background-color: #E74040;
+        overflow: hidden;
+        transition: .3s ease;
+    }
+    .mobile__nav__link{
+        font-size: 1.9rem;
+        color: #fff;
+        font-weight: 700;
+    }
+    .mobile__nav__links{
+        display: flex;
+        gap: 3rem;
+        flex-direction: column;
     }
 	
 }

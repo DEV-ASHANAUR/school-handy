@@ -90,6 +90,10 @@ const Courses = () => {
                             slidesPerView: 1,
                             spaceBetween: 20,
                         },
+                        420: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
                         576: {
                             slidesPerView: 2,
                             spaceBetween: 20,

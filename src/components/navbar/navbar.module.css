@@ -11,6 +11,7 @@
     color: #fff;
 }
 .nav__links{
+    display: flex;
     gap: 1.9rem;
 }
 .nav__link{
@@ -22,7 +23,11 @@
     color: #a5a0b3;
 }
 .nav__right{
+    /* display: flex; */
     gap: 4.5rem;
+}
+.menu__add{
+    display: none;
 }
 .login{
     font-weight: 700;
@@ -49,4 +54,28 @@
 
 .buttons-gap{
     gap: 4.5rem;
+}
+
+.desktop__menu{
+    display: flex;
+}
+
+@media (max-width: 767px) {
+	html {
+		font-size: 50%!important;
+	}
+    .nav__right{
+        display: flex;
+        align-items: center;
+    }
+    .menu__add{
+        display: block;
+        font-size: 3rem;
+        font-weight: bold;
+        color: #fff;
+    }
+    .nav__links{
+        display: none!important;
+    }
+	
 }

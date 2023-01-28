@@ -10,7 +10,7 @@ const Footer = () => {
             <section className='footer__wrapper'>
             <div className="container">
                 <div className="row">
-                    <div className="col-md-4">
+                    <div className="col-lg-4 col-md-6 py-5">
                         <div className="row">
                             <div className="col-md-6">
                                 <div className="footer__list">
@@ -33,7 +33,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-5">
+                    <div className="col-lg-5 col-md-6 py-5">
                         <div className="row">
                             <div className="col-md-7">
                                 <div className="footer__list">
@@ -56,7 +56,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-3">
+                    <div className="col-lg-3 col-md-12 py-5">
                         <div className="footer__list">
                             <a href="#">Get In Touch</a>
                             <a href="#"><BiPhoneCall className='footer__icon1' /> (480) 555-0103</a>

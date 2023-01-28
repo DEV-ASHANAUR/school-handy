@@ -9,7 +9,7 @@ const Newsletter = () => {
                 <Heading first="Newsletter" second="Our Experts Teacher" third="Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics " centerMode={true} />
 
                 <div className="newsletter__form">
-                    <input type="text" />
+                    <input type="text" placeholder='Your Email' />
                     <button>Subscribe</button>
                 </div>
             </div>

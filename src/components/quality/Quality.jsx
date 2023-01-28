@@ -8,10 +8,10 @@ const Quality = () => {
         <div className="container">
             <Heading first="Practice Advice" second="Get Quality Education" third="Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics" />
             <div className={`${styles.quality__main} row`}>
-                <div className="col-md-7">
+                <div className="col-lg-7 quality__left">
                     <img className="img-fluid" src={pori} alt="" />
                 </div>
-                <div className="col-md-5">
+                <div className="col-lg-5 col-md-12">
                     <div className={styles.quality__right}>
                         <h2>Most trusted in our field</h2>
                         <p>Most calendars are designed for teams. Slate s designed for freelancers </p>

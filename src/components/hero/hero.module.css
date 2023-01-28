@@ -32,12 +32,13 @@
 }
 .hero__buttons{
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 
 .get_quota{
     background: #FF6551;
-    border-radius: 5px;
+    border-radius: .5rem;
     padding: 1.5rem 4rem;
     color: #fff;
     text-transform: uppercase;
@@ -50,7 +51,7 @@
 .learn__more{
     background: transparent;
     border: 1px solid #FF6551;
-    border-radius: 5px;
+    border-radius: .5rem;
     padding: 1.5rem 4rem;
     color: #fff;
     text-transform: uppercase;
@@ -69,5 +70,6 @@
     bottom: 2rem;
     right: 6%;
     object-fit: cover;
-    width: 550px; 
+    max-width: 55rem; 
+    width: 100%;
 }

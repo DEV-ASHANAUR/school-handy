@@ -5,7 +5,6 @@ import './testimonial.css'
 import testCover1 from '../../assets/img/testimonial/testimonial-user-cover-1.png';
 import testCover2 from '../../assets/img/testimonial/testimonial-user-cover-2.png';
 
-import { AiFillStar } from 'react-icons/ai'
 import TestiItem from './TestiItem';
 
 const Testimonial = () => {
